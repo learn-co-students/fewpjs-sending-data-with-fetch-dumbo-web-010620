@@ -9,6 +9,7 @@
         margin: 1em 5em;
       }
     </style>
+    <script src="index.js" defer></script>
   </head>
 
   <body>
@@ -16,6 +17,16 @@
     <form action="http://localhost:3000/dogs" method="POST">
       <label> Dog Name: <input type="text" name="dogName" id="dogName" /></label><br />
       <label> Dog Breed: <input type="text" name="dogBreed" id="dogBreed" /></label><br />
+      <input type="submit" name="submit" id="submit" value="Submit" />
+    </form>
+
+  </body>
+
+  <body>
+    <h1>User form</h1>
+    <form action="http://localhost:3000/users" method="POST">
+      <label> Name: <input type="text" name="userName" id="userName" /></label><br />
+      <!-- <label> Dog Breed: <input type="text" name="dogBreed" id="dogBreed" /></label><br /> -->
       <input type="submit" name="submit" id="submit" value="Submit" />
     </form>
 
